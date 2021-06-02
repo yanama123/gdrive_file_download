@@ -46,9 +46,9 @@ def main():
 
         if int(option) == 1:
             print("################ Enter File Name ##################")
-            print('You have selected Enter File Name')
+            print('You have selected Option 1: ')
             file_name = input('Enter File Name: ')
-            print('Entered file ID is: {} '.format(file_name))
+            print('Entered file Name is: {} '.format(file_name))
             download(file_name)
 
         elif int(option) == 2:
