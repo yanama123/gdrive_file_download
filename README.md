@@ -6,7 +6,7 @@ download: download files from google drive by file name
 
 ### Prerequisites:
 
-    - Python 3.5 or above need to be installed
+    Python 3.5 or above need to be installed
 
     Note: If permissions are not there to set the environmental variables use the absolute path of python to execute the script:
 
