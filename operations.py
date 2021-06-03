@@ -5,7 +5,10 @@ from httplib2 import Http
 from oauth2client import file, client, tools
 import os
 import logging
-from .log import info
+from log import info
+
+
+
 obj = lambda: None
 
 SCOPES = 'https://www.googleapis.com/auth/drive.readonly'
@@ -100,6 +103,8 @@ def download(filename):
             print('file_id', file_id)
             logging.info('file id: {}'.format(file_id))
             download_file_from_google_drive(service, file_id, filename)
+            print('Download successful')
+
         else:
             print('Please enter valid file Name')
             logging.info('Please enter valid file Name')
