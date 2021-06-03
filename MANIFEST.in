@@ -1,0 +1,17 @@
+recursive-exclude __pycache__  *.pyc* .pyo *.origexclude *.js*
+
+
+# Include the README
+include *.md
+
+# Include the .sh file
+include *.sh
+
+include *.py
+include *.yaml
+include *.yml
+include tests
+
+include *.txt
+include Dockerfile
+recursive-include requirements *
